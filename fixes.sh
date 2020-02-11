@@ -1,2 +1,2 @@
 sudo systemctl disable apt-daily{,-upgrade}.{timer,service}
-sudo apt purge snapd
+sudo apt purge -y snapd
